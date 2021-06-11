@@ -8,8 +8,8 @@ public class Main {
         int[][] intervarls;
        // intervarls= new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         //intervarls= new int[][]{{1, 4}, {4, 5},};
-        //intervarls= new int[][] {{1,4}, {0,4}};
-        intervarls= new int[][] {{1,4}, {2,3}};
+        intervarls= new int[][] {{1,4}, {0,4}};
+        //intervarls= new int[][] {{1,4}, {2,3}};
 
         System.out.println(Arrays.deepToString(intervarls));
         Arrays.sort(intervarls, (i1, i2) ->i1[0] - i2[0] );
